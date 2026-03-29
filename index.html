@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camisas Brasil Copa 2026 – Vista a Verde e Amarelo</title>
+  <meta name="description" content="Camisas oficiais da Seleção Brasileira para a Copa do Mundo 2026. Personalize com seu nome e número. Entrega rápida para todo o Brasil." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ HEADER ═══ -->
+<header class="site-header" id="top">
+  <nav class="nav-bar">
+    <div class="nav-logo">🇧🇷 <span>BRASIL</span> <em>2026</em></div>
+    <ul class="nav-links">
+      <li><a href="#camisas">Camisas</a></li>
+      <li><a href="#personalizar">Personalizar</a></li>
+      <li><a href="#promocoes">Promoções</a></li>
+      <li><a href="#garantia">Garantia</a></li>
+    </ul>
+    <a href="#promocoes" class="nav-cta">Comprar Agora</a>
+    <button class="nav-hamburger" id="hamburguer" aria-label="menu">&#9776;</button>
+  </nav>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#camisas">Camisas</a>
+    <a href="#personalizar">Personalizar</a>
+    <a href="#promocoes">Promoções</a>
+    <a href="#garantia">Garantia</a>
+    <a href="#promocoes" class="btn-green">Comprar Agora</a>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════ HERO ═══ -->
+<section class="hero" id="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🏆 Copa do Mundo 2026</div>
+    <h1 class="hero-title">
+      VISTA AS CORES<br />
+      <span class="gradient-text">DO BRASIL</span>
+    </h1>
+    <p class="hero-sub">Camisas oficiais da Seleção Canarinho.<br/>Personalize com seu nome e número favorito.</p>
+    <div class="hero-actions">
+      <a href="#promocoes" class="btn-primary">Ver Promoções ↓</a>
+      <a href="#personalizar" class="btn-outline">Personalizar Camisa</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>+12.000</strong><span>Camisas vendidas</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>⭐ 4.9</strong><span>Avaliação média</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>48h</strong><span>Entrega expressa</span></div>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="hero-img-glow"></div>
+    <img src="images/camisa-amarela.webp" alt="Camisa Titular Brasil 2026" class="hero-shirt" />
+    <div class="floating-badge fb1">🇧🇷 Titular</div>
+    <div class="floating-badge fb2">⚡ Lançamento</div>
+  </div>
+  <div class="hero-ticker">
+    <div class="ticker-track">
+      <span>🏆 COPA DO MUNDO 2026</span><span>🇧🇷 BRASIL HEXACAMPEÃO</span><span>⚽ CAMISAS OFICIAIS</span><span>🌟 PERSONALIZAÇÃO EXCLUSIVA</span><span>🚚 ENTREGA RÁPIDA</span><span>🏆 COPA DO MUNDO 2026</span><span>🇧🇷 BRASIL HEXACAMPEÃO</span><span>⚽ CAMISAS OFICIAIS</span><span>🌟 PERSONALIZAÇÃO EXCLUSIVA</span><span>🚚 ENTREGA RÁPIDA</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ CAMISAS ═══ -->
+<section class="camisas-section" id="camisas">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Coleção 2026</span>
+      <h2>ESCOLHA SUA <span>CAMISA</span></h2>
+      <p>Dois modelos exclusivos para a Copa do Mundo 2026</p>
+    </div>
+
+    <div class="camisas-grid">
+      <!-- Camisa Titular -->
+      <div class="camisa-card active" data-model="titular" onclick="selectShirt('titular', this)">
+        <div class="camisa-card-badge">⭐ Mais Vendida</div>
+        <div class="camisa-img-wrap">
+          <img src="images/camisa-amarela.webp" alt="Camisa Titular Amarela Brasil 2026" />
+        </div>
+        <div class="camisa-info">
+          <h3>Camisa Titular</h3>
+          <p>Amarelo Ouro • Nike Dri-FIT</p>
+          <div class="camisa-colors">
+            <span class="color-dot yellow active-dot"></span>
+            <span class="color-dot green"></span>
+          </div>
+          <div class="camisa-price">R$ 149,90</div>
+          <a href="#personalizar" class="btn-card">Personalizar →</a>
+        </div>
+      </div>
+
+      <!-- Camisa Reserva -->
+      <div class="camisa-card" data-model="reserva" onclick="selectShirt('reserva', this)">
+        <div class="camisa-card-badge new">🆕 Novo</div>
+        <div class="camisa-img-wrap">
+          <img src="images/camisa-azul.webp" alt="Camisa Reserva Azul Preta Brasil 2026" />
+        </div>
+        <div class="camisa-info">
+          <h3>Camisa Reserva</h3>
+          <p>Azul & Preta • Jordan Brand</p>
+          <div class="camisa-colors">
+            <span class="color-dot blue active-dot"></span>
+            <span class="color-dot black"></span>
+          </div>
+          <div class="camisa-price">R$ 149,90</div>
+          <a href="#personalizar" class="btn-card">Personalizar →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ PERSONALIZAR ═══ -->
+<section class="personalizar-section" id="personalizar">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-tag">Exclusivo</span>
+      <h2>PERSONALIZE SUA <span>CAMISA</span></h2>
+      <p>Coloque seu nome e número favorito como um jogador da Seleção</p>
+    </div>
+
+    <div class="personalizar-wrap">
+      <!-- Preview -->
+      <div class="preview-area">
+        <div class="preview-shirt-wrap">
+          <img id="previewShirtImg" src="images/camisa-amarela.webp" alt="Preview camisa" class="preview-shirt-img" />
+          <div class="preview-overlay">
+            <div class="preview-number" id="previewNumber">10</div>
+            <div class="preview-name" id="previewName">SEU NOME</div>
+          </div>
+        </div>
+        <div class="preview-tip">👆 Veja em tempo real como ficará</div>
+      </div>
+
+      <!-- Formulário -->
+      <div class="form-area">
+        <div class="form-group">
+          <label>Modelo da Camisa</label>
+          <div class="model-toggle">
+            <button class="model-btn active" id="btnTitular" onclick="switchModel('titular')">
+              <span class="model-dot yellow"></span> Titular
+            </button>
+            <button class="model-btn" id="btnReserva" onclick="switchModel('reserva')">
+              <span class="model-dot blue"></span> Reserva
+            </button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputNome">Nome na Camisa</label>
+          <input type="text" id="inputNome" placeholder="Ex: NEYMAR, VINI JR..." maxlength="14" oninput="updatePreview()" />
+          <span class="field-hint">Máx. 14 caracteres · Será impresso em maiúsculas</span>
+        </div>
+
+        <div class="form-group">
+          <label for="inputNumero">Número</label>
+          <div class="number-select-wrap">
+            <input type="number" id="inputNumero" placeholder="10" min="1" max="99" oninput="updatePreview()" />
+            <div class="number-presets">
+              <button onclick="setNumber(1)">1</button>
+              <button onclick="setNumber(7)">7</button>
+              <button onclick="setNumber(9)">9</button>
+              <button onclick="setNumber(10)">10</button>
+              <button onclick="setNumber(11)">11</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Tamanho</label>
+          <div class="size-grid">
+            <button class="size-btn" onclick="selectSize(this)">PP</button>
+            <button class="size-btn" onclick="selectSize(this)">P</button>
+            <button class="size-btn active-size" onclick="selectSize(this)">M</button>
+            <button class="size-btn" onclick="selectSize(this)">G</button>
+            <button class="size-btn" onclick="selectSize(this)">GG</button>
+            <button class="size-btn" onclick="selectSize(this)">XGG</button>
+          </div>
+          <a href="#" class="size-guide-link">📏 Guia de tamanhos</a>
+        </div>
+
+        <div class="form-summary">
+          <div class="summary-line">
+            <span>Camisa Personalizada</span>
+            <span id="summaryPrice">R$ 149,90</span>
+          </div>
+          <div class="summary-line sub">
+            <span>Personalização (nome + número)</span>
+            <span class="free-tag">GRÁTIS</span>
+          </div>
+        </div>
+
+        <button class="btn-primary full" onclick="addToCart()">
+          🛒 Adicionar ao Carrinho
+        </button>
+        <p class="form-guarantee">🔒 Compra 100% segura · 30 dias de garantia</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ PROMOÇÕES ═══ -->
+<section class="promocoes-section" id="promocoes">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag fire">🔥 Oferta Especial</span>
+      <h2>QUANTO MAIS, <span>MAIS ECONÔMICO</span></h2>
+      <p>Compre para toda a família e economize de verdade</p>
+    </div>
+
+    <div class="promo-countdown">
+      <span>⏰ Promoção encerra em:</span>
+      <div class="countdown" id="countdown">
+        <div class="c-block"><span id="c-h">12</span><em>hrs</em></div>
+        <div class="c-sep">:</div>
+        <div class="c-block"><span id="c-m">34</span><em>min</em></div>
+        <div class="c-sep">:</div>
+        <div class="c-block"><span id="c-s">59</span><em>seg</em></div>
+      </div>
+    </div>
+
+    <div class="promo-grid">
+
+      <!-- Plano 1 -->
+      <div class="promo-card">
+        <div class="promo-top">
+          <div class="promo-icon">👕</div>
+          <h3>Individual</h3>
+          <p>1 Camisa</p>
+        </div>
+        <div class="promo-price-block">
+          <div class="promo-old-price">De R$ 199,90</div>
+          <div class="promo-price">R$ 149<span class="cents">,90</span></div>
+          <div class="promo-unit">por camisa</div>
+        </div>
+        <ul class="promo-list">
+          <li>✅ Personalização gratuita</li>
+          <li>✅ Entrega em todo Brasil</li>
+          <li>✅ Garantia 30 dias</li>
+          <li>✅ 1 modelo à escolha</li>
+        </ul>
+        <a href="#personalizar" class="btn-promo">Comprar Agora</a>
+      </div>
+
+      <!-- Plano 2 – DESTAQUE -->
+      <div class="promo-card featured">
+        <div class="promo-ribbon">MAIS POPULAR</div>
+        <div class="promo-top">
+          <div class="promo-icon">👕👕</div>
+          <h3>Dupla</h3>
+          <p>2 Camisas</p>
+        </div>
+        <div class="promo-price-block">
+          <div class="promo-old-price">De R$ 299,80</div>
+          <div class="promo-price">R$ 239<span class="cents">,80</span></div>
+          <div class="promo-unit">R$ 119,90 cada · <strong>Economize R$ 60!</strong></div>
+        </div>
+        <ul class="promo-list">
+          <li>✅ Personalização gratuita</li>
+          <li>✅ Entrega expressa prioritária</li>
+          <li>✅ Garantia 30 dias</li>
+          <li>✅ Modelos diferentes OK</li>
+          <li>✅ Embrulho para presente</li>
+        </ul>
+        <a href="#personalizar" class="btn-promo featured-btn">🔥 Quero a Dupla!</a>
+        <p class="promo-saving">Você economiza <strong>R$ 60,00</strong></p>
+      </div>
+
+      <!-- Plano 3 -->
+      <div class="promo-card">
+        <div class="promo-top">
+          <div class="promo-icon">👕👕👕</div>
+          <h3>Família</h3>
+          <p>3 ou mais Camisas</p>
+        </div>
+        <div class="promo-price-block">
+          <div class="promo-old-price">De R$ 449,70</div>
+          <div class="promo-price">R$ 329<span class="cents">,70</span></div>
+          <div class="promo-unit">R$ 109,90 cada · <strong>Economize R$ 120!</strong></div>
+        </div>
+        <ul class="promo-list">
+          <li>✅ Personalização gratuita</li>
+          <li>✅ Frete GRÁTIS</li>
+          <li>✅ Garantia 30 dias</li>
+          <li>✅ Todos os tamanhos</li>
+          <li>✅ Embrulho para presente</li>
+        </ul>
+        <a href="#personalizar" class="btn-promo">Comprar Família</a>
+        <p class="promo-saving">Você economiza <strong>R$ 120,00</strong></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ DEPOIMENTOS ═══ -->
+<section class="depoimentos-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">⭐ Avaliações</span>
+      <h2>O QUE DIZEM <span>NOSSOS CLIENTES</span></h2>
+    </div>
+    <div class="depoimentos-grid">
+      <div class="dep-card">
+        <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Chegou super rápido e a qualidade é incrível! Meu nome ficou perfeito na camisa. Recomendo demais!"</p>
+        <div class="dep-author"><strong>Marcos R.</strong> <span>São Paulo · SP</span></div>
+      </div>
+      <div class="dep-card">
+        <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Comprei a dupla para mim e pro meu filho. O desconto vale muito a pena. Já estamos prontos para a Copa!"</p>
+        <div class="dep-author"><strong>Fernanda C.</strong> <span>Rio de Janeiro · RJ</span></div>
+      </div>
+      <div class="dep-card">
+        <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Tecido de altíssima qualidade, igual ao original. A personalização ficou ótima, muito bem acabada."</p>
+        <div class="dep-author"><strong>Rafael M.</strong> <span>Belo Horizonte · MG</span></div>
+      </div>
+      <div class="dep-card">
+        <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+        <p>"Comprei o kit família, foram 5 camisas. Cada uma diferente! Atendimento impecável e entrega no prazo."</p>
+        <div class="dep-author"><strong>Ana Paula S.</strong> <span>Curitiba · PR</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ GARANTIA ═══ -->
+<section class="garantia-section" id="garantia">
+  <div class="container">
+    <div class="garantia-grid">
+      <div class="garantia-card">
+        <div class="g-icon">🔒</div>
+        <h4>Compra Segura</h4>
+        <p>Pagamento 100% seguro com SSL. Suas informações estão protegidas.</p>
+      </div>
+      <div class="garantia-card">
+        <div class="g-icon">🚚</div>
+        <h4>Entrega Rápida</h4>
+        <p>Enviamos para todo o Brasil. Entrega expressa em até 48h para capitais.</p>
+      </div>
+      <div class="garantia-card">
+        <div class="g-icon">↩️</div>
+        <h4>Troca Garantida</h4>
+        <p>30 dias para trocar caso não goste do tamanho. Sem complicação.</p>
+      </div>
+      <div class="garantia-card">
+        <div class="g-icon">🏅</div>
+        <h4>Qualidade Premium</h4>
+        <p>Tecido oficial, personalização bordada de alta durabilidade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ CTA FINAL ═══ -->
+<section class="cta-final">
+  <div class="cta-shapes">
+    <div class="cta-shape-1"></div>
+    <div class="cta-shape-2"></div>
+  </div>
+  <div class="container cta-content">
+    <h2>A COPA TÁ CHEGANDO.<br/><span>VOCÊ JÁ TEM A SUA?</span></h2>
+    <p>Garanta agora antes que acabem os tamanhos. Personalização gratuita por tempo limitado.</p>
+    <a href="#personalizar" class="btn-primary large">🛒 Quero Minha Camisa</a>
+    <div class="cta-seals">
+      <span>🔒 SSL Seguro</span>
+      <span>💳 Parcelamos em 12x</span>
+      <span>📦 Frete Grátis acima de 3 un.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FOOTER ═══ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo">🇧🇷 <span>BRASIL</span> <em>2026</em></div>
+      <p>Sua loja oficial de camisas<br/>da Seleção Brasileira 2026.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Links</h5>
+      <a href="#camisas">Camisas</a>
+      <a href="#personalizar">Personalizar</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#garantia">Garantia</a>
+    </div>
+    <div class="footer-links">
+      <h5>Atendimento</h5>
+      <a href="#">WhatsApp</a>
+      <a href="#">E-mail</a>
+      <a href="#">Política de Troca</a>
+      <a href="#">Frete e Entrega</a>
+    </div>
+    <div class="footer-social">
+      <h5>Siga nas redes</h5>
+      <div class="social-row">
+        <a href="#" class="social-btn">📸 Instagram</a>
+        <a href="#" class="social-btn">🎵 TikTok</a>
+      </div>
+      <p class="footer-pix">💰 Aceitamos: PIX, Cartão, Boleto</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Brasil Copa 2026 · Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════ CART TOAST ═══ -->
+<div class="cart-toast" id="cartToast">
+  <span>🛒 Camisa adicionada ao carrinho!</span>
+</div>
+
+<!-- ═══════════════════════════════════════════ SCROLL TOP ═══ -->
+<button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">▲</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
